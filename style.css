@@ -168,6 +168,8 @@ section#section03{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    width: 30%;
 }
 .content_especialidades img{
     width: 300px;
