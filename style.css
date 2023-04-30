@@ -1,8 +1,8 @@
 *{
     margin: 0;
-    background-color: #F5F5F5;
     color: black;
 }
+
 :root{
     --verde: #5C7366;
     --cinza: #4F4F4F;
@@ -22,9 +22,13 @@ header{
     mix-blend-mode: normal;
     border: 1px solid #DDDDDD;
     box-sizing: border-box;
+    background-color: #F5F5F5;
 }
 header  p{
     font-size: 20px;
+}
+main{
+    background-color: #F5F5F5;
 }
 menu{
     position: sticky;
@@ -51,7 +55,7 @@ li > a{
 .fale_conosco{
     color: #ffffff;
     padding: 15px 20px;
-    background: #5C7366;
+    background-color: #5C7366;
     border-radius: 40px;
 }
 
@@ -157,7 +161,6 @@ section#section03{
     align-items: center;
     gap: 20px;
 }
-
 .h2_espe{
     color: var(--verde);
     width: 100%;
@@ -173,4 +176,81 @@ section#section03{
 }
 .content_especialidades img{
     width: 300px;
+}
+
+#section04{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./imagens/bac2.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    gap: 40px;
+}
+#section04 p{
+    text-align: center;
+    width: 60%;
+    padding: 60px;
+    color: #fff;
+}
+.fale_conosco{
+    background-color: #fff;
+    color: var(--verde);
+}
+.fale_conosco a{
+    color: var(--verde);
+    text-decoration: none;
+}
+
+section#section06{
+    background-color: var(--verde);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    height: 250px;
+}
+
+#section06 h2{
+    color: #2F3C35;
+}
+#section06 p{
+    
+    width: 60%;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    height: 200px;
+    padding: 0 20px;
+}
+
+.contato_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.p_footer{
+    color: var(--cinza);
+    font-size: 20px;
+}
+.p_contato{
+    font-size: 24px;
+    color: #2F3C35;
+}
+.p_final{
+    text-align: center;
+    padding-bottom: 10px;
 }
